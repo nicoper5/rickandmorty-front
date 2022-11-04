@@ -1,0 +1,98 @@
+.character-card {
+  background-color: rgb(101, 3, 110);
+  color: white;
+  text-decoration: none;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+#navbar {
+  list-style: none;
+  background-color: rgb(101, 3, 110);
+  margin: 0;
+  height: 4rem;
+  width: 100%;
+}
+
+.logo-nav {
+  height: 3rem;
+}
+
+.character-card span {
+  text-decoration: none;
+}
+
+.img-details {
+  border-radius: 15%;
+  width: 25rem;
+}
+
+.text-link {
+  text-decoration: none;
+  color: white;
+}
+
+.text-link :hover {
+  color: rgb(6, 255, 60);
+}
+
+.center {
+  margin: auto;
+  display: block;
+}
+
+.img-card {
+  width: 100%;
+  display: block;
+}
+
+#filters {
+  background-color: rgb(101, 3, 110);
+  height: 4rem;
+  border-radius: 1rem;
+}
+.select-filter {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.btn-pages {
+  background-color: rgb(101, 3, 110);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem;
+  width: 5rem;
+  border-radius: 1rem;
+}
+
+.lable-filter {
+  color: blueviolet;
+}
+
+#character-info {
+  background-color: rgb(101, 3, 110);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.coment-card {
+  background-color: rgb(101, 3, 110);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+@media (max-width: 750px) {
+  #character-info-card {
+    display: none;
+  }
+}
+
+/* .logo-nav {
+  margin: auto;
+  display: block;
+  background-color: none;
+} */
